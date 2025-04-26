@@ -1,0 +1,51 @@
+Architecture and Flow of the User Feedback Application
+
+1. Overview
+The User Feedback Application allows users to submit feedback and view existing feedback. 
+It is built using React.js for the frontend, 
+Express.js for the backend, and MongoDB to store feedback data.
+
+2. Application Architecture
+Frontend (React.js)
+Components:
+
+Form: A form to submit name, email, and feedback.
+
+Feedback List: Displays the list of all feedbacks.
+
+Toast Notifications: Used to show success or error messages upon feedback submission.
+
+Backend (Express.js & MongoDB)
+API Routes:
+
+POST /feedback: Saves new feedback into the database.
+
+GET /feedback: Fetches all feedback data.
+
+Database: MongoDB stores the feedbacks, which include name, email, message, and timestamp.
+
+3. Flow of the Application
+User Submits Feedback:
+
+User enters their feedback in the form, and a POST request is sent to the backend.
+
+The backend saves the data in MongoDB and returns a success message.
+
+Feedback Display:
+
+The frontend fetches feedback data using a GET request and displays it in a list.
+
+Error Handling:
+
+If an error occurs, a toast notification displays an error message
+
+4. Tech Stack
+Frontend: React.js, Axios, React-Toastify.
+
+Backend: Express.js, MongoDB.
+
+Database: MongoDB (local or cloud-based).
+
+5. Data Flow
+Frontend sends data (feedback) to the backend, which stores it in the database. The frontend then fetches and displays feedback.
+
