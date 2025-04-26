@@ -1,0 +1,145 @@
+.feedback-list-container {
+    width: 80%;
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .feedback-list-container h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .feedback-list-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .feedback-item {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .feedback-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feedback-details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .feedback-label {
+    font-weight: bold;
+    color: #007bff;
+    width: 80px;
+  }
+  
+  .feedback-email, .feedback-name {
+    margin-left: 10px;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .feedback-message {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .feedback-message p {
+    margin: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .feedback-list-container {
+      width: 95%;
+    }
+  
+    .feedback-list-container h2 {
+      font-size: 1.5rem;
+    }
+  
+    .feedback-item {
+      padding: 12px;
+    }
+  
+    .feedback-label {
+      font-size: 0.9rem;
+    }
+  
+    .feedback-email, .feedback-name {
+      font-size: 0.9rem;
+    }
+  
+    .feedback-message p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  .back-home-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-home-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .feedback-item {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .feedback-details,
+  .feedback-message,
+  .feedback-timestamp {
+    margin-bottom: 12px;
+  }
+  
+  .feedback-label {
+    font-weight: bold;
+    margin-right: 8px;
+  }
+  
+  .back-home-button {
+    margin-bottom: 20px;
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .back-home-button:hover {
+    background-color: #45a049;
+  }
+  
+  .feedback-list-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+  }
+  
